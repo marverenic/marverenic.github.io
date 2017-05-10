@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #E0E0E0;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    width: 100%;
+    background-color: #212121;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.header_icon {
+    height: 32px;
+    padding: 8px;
+    opacity: 0.75;
+    transition: all 0.3s;
+}
+
+.header_icon:hover {
+    opacity: 1;
+}
+
+.content {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subhead {
+    color: #0091EA;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 8px;
+}
+
+.card {
+    background-color: #FAFAFA;
+    padding: 8px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card h1 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.thumbnail {
+    width: 64px;
+    height: 64px;
+    float: left;
+    margin-right: 8px;
+}
+
+.caption {
+    margin: 0px;
+    font-size: 16px;
+    color: #616161;
+}
+
+.mark {
+    float: right;
+    opacity: 0.25;
+    transition: all 0.3s;
+}
+
+.card:hover .mark {
+    opacity: 0.33;
+}
