@@ -93,6 +93,11 @@ a.card:hover {
     font-weight: 500;
 }
 
+.card h3 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
 .card a {
     color: 0091EA;
 }
